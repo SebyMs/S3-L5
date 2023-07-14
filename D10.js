@@ -337,6 +337,8 @@ const isTodayMyBirthday = function () {
   if (mese === 3) {
     if (giorno === 18) {
       console.log("Oggi é il tuo compleanno");
+    } else {
+      console.log("Oggi non é il tuo compleanno");
     }
   } else {
     console.log("Oggi non é il tuo compleanno");
